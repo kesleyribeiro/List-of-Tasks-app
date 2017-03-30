@@ -13,23 +13,21 @@ class navVC: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        // Cor do título da Nav. Controller
+        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Cor dos botões na Nav. Controller
+        self.navigationBar.barTintColor = .white
+
+        // Cor do background da Nav. Controller / Nav. Bar
+        self.navigationBar.barTintColor = blueColor
+
+        // Desabilitar o translúcido
+        self.navigationBar.isTranslucent = false
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Status bar em branco
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
     }
-    */
-
 }

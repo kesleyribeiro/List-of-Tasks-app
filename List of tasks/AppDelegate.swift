@@ -8,6 +8,9 @@
 
 import UIKit
 
+// Color
+let blueColor = UIColor(red: 80/255, green: 160/255, blue: 240/255, alpha: 1)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
