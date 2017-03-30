@@ -55,7 +55,7 @@ class tabBarVC: UITabBarController {
         icon.center = view.center // To center the image with view size
         self.view.addSubview(icon) // Add image to view controller
         
-        // To initiate the first animation - zoom out icon
+        // To initiate the first animation - zoom in
         UIView.animate(withDuration: 0.7, delay: 0.5, options: .curveLinear, animations: {
 
             // To make small icon
@@ -66,7 +66,7 @@ class tabBarVC: UITabBarController {
             // Finished the firts animation
             if finished {
 
-                // Second animation - zoom in icon
+                // Second animation - zoom in
                 UIView.animate(withDuration: 1.5, animations: {
                     
                     // To make big icon
