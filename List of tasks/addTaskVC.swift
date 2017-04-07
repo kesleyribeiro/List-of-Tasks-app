@@ -33,7 +33,7 @@ class addTaskVC: UIViewController, UITextFieldDelegate {
         addTaskBtn.isEnabled = false
         addTaskBtn.alpha = 0.3
     }
-    
+
     // If some information in textfiel was modified
     func textFieldDidChange(_ textField : UITextView) {
         

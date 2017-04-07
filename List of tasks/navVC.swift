@@ -15,10 +15,7 @@ class navVC: UINavigationController {
 
         // Cor do título da Nav. Controller
         self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-
-        // Cor dos botões na Nav. Controller
-        self.navigationBar.barTintColor = .white
-
+        
         // Cor do background da Nav. Controller / Nav. Bar
         self.navigationBar.barTintColor = blueColor
 

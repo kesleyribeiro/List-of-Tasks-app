@@ -22,7 +22,7 @@ class tabBarVC: UITabBarController {
         // No translucent
         self.tabBar.isTranslucent = false
         
-        // Belo texto color of icon in tabBar
+        // Text color of icon in tabBar
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.gray], for: UIControlState())
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .selected)
         
