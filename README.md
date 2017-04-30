@@ -1,5 +1,5 @@
 # List-of-Tasks-app
-App List of Tasks in Swift 3 using UserDefaults (CRUD) to keep the data.
+List of Tasks iOS App in Swift 3 using UserDefaults (CRUD) to keep the data.
 
 Features implemented:
 - Persistence with UserDefaults;
